@@ -1,11 +1,14 @@
-# React + Vite
+# Recipe Generator with AI (Gemini, React, Express, Node.js, Vite)
+A web application that generates personalized recipes based on available ingredients using Gemini AI for text generation. Built with React for the frontend, and Express and Node.js for the backend, this project demonstrates seamless integration of AI-powered solutions in modern web development.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features  
+- Input ingredients and get tailored recipe suggestions  
+- AI-driven natural language generation for detailed recipe instructions
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used  
+- **Client-Side**: React  
+- **Server-Side**: Express, Node.js  
+- **AI Integration**: Gemini AI (Generative Language) 
 
 ## Project Structure
 
