@@ -1,5 +1,5 @@
 # Recipe Generator with AI (Gemini, React, Express, Node.js, Vite)
-A web application that generates personalized recipes based on available ingredients using Gemini AI for text generation. Built with React for the frontend, and Express and Node.js for the backend, this project demonstrates seamless integration of AI-powered solutions in modern web development.  
+A web application that generates personalized recipes based on available ingredients using Gemini AI for text generation. Built with React for the frontend, and Express and Node.js for the backend, this project demonstrates seamless integration of AI-powered solutions in modern web development. (This is my first project that I made with integrated AI:3)
 
 ## Features  
 - Input ingredients and get tailored recipe suggestions  
