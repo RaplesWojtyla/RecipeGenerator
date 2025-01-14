@@ -43,3 +43,5 @@ recipe-app/
 ├── .package.json
 ├── .README.md
 ```
+
+<p align="center"> Created with ❤️ by Wojtyla </p>
