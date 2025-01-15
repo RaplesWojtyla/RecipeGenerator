@@ -85,6 +85,7 @@ form.ingredients-input {
   color: white;
   padding: 9px 17px;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 .ingredients-input > button::before {
@@ -146,6 +147,7 @@ form.ingredients-input {
   border: none;
   color: white;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+  cursor: pointer;
 }
 
 section.suggested-recipe-container {
