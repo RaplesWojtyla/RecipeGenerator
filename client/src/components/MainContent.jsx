@@ -1,14 +1,21 @@
-import React from 'react'
+import { useState, useRef, useEffect } from 'react'
 import IngredientsList from './IngredientsList'
 import GeminiRecipe from './GeminiRecipe'
 
 const MainContent = () => {
 	// "chicken", "all the main spices", "corn", "heavy cream", "pasta"
-	const [ingredients, setIngredients] =  React.useState(
-		[]
+	const [ingredients, setIngredients] =  useState(
+		["chicken", "all the main spices", "corn", "heavy cream", "pasta"]
 	)
-	const [recipe, setRecipe] = React.useState("")
-	const inputRef = React.useRef(null) 
+	const [recipe, setRecipe] = useState("")
+	const inputRef = useRef(null)
+	const recipeSectionRef = useRef(null)
+
+	useEffect(() => {
+		if(recipe && recipeSectionRef.current) {
+			recipeSectionRef.current.scrollIntoView({ behavior: "smooth" })
+		}
+	}, [recipe])
 
 	const addIngredient = (event) => {
 		event.preventDefault()
@@ -57,6 +64,7 @@ const MainContent = () => {
 				<IngredientsList 
 					ingredients={ingredients}
 					getRecipe={getRecipe}
+					recipeRef={recipeSectionRef}
 				/>
 			)}
 

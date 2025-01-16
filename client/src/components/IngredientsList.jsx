@@ -8,7 +8,7 @@ const IngredientsList = (props) => {
 				</ul>
 			</div>
 			{props.ingredients.length > 3 && (
-				<div className="get-recipe-container">
+				<div className="get-recipe-container" ref={props.recipeRef}>
 					<div>
 						<h2>Ready for a recipe?</h2>
 						<p>Generate a recipe from your list of ingredients</p>
