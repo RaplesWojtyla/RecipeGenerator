@@ -5,7 +5,7 @@ import GeminiRecipe from './GeminiRecipe'
 const MainContent = () => {
 	// "chicken", "all the main spices", "corn", "heavy cream", "pasta"
 	const [ingredients, setIngredients] =  useState(
-		["chicken", "all the main spices", "corn", "heavy cream", "pasta"]
+		[]
 	)
 	const [recipe, setRecipe] = useState("")
 	const inputRef = useRef(null)
