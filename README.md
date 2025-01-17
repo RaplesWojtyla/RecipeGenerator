@@ -10,6 +10,42 @@ A web application that generates personalized recipes based on available ingredi
 - **Server-Side**: Express, Node.js  
 - **AI Integration**: Gemini AI (Generative Language) 
 
+### Configuration
+1. Copy the .env.example file into .env
+   ```bash
+   cp .env.example .env
+   ```
+2. Change ```{YOUR_GEMINI_API_KEY}``` to your mongodb connection string
+   ```bash
+   GEMINI_API_KEY={YOUR_GEMINI_API_KEY}
+   ```
+
+### Installation (For Development)
+
+1. Install the dependencies for app/server:
+    ```bash
+    npm install
+    ```
+
+2. Install the dependencies for client:
+    ```bash
+    cd ./frontend
+    npm install
+    ```
+
+### Running the Project (For Development)
+
+1. Start the app/server:
+    ```bash
+    cd ./backend
+    npm run dev
+    ```
+2. Start the client
+    ```bash
+    cd ./frontend
+    npm run dev
+    ```
+
 ## Project Structure
 
 ```
