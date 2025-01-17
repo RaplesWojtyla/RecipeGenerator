@@ -15,7 +15,7 @@ A web application that generates personalized recipes based on available ingredi
    ```bash
    cp .env.example .env
    ```
-2. Change ```{YOUR_GEMINI_API_KEY}``` to your mongodb connection string
+2. Change ```{YOUR_GEMINI_API_KEY}``` to your Gemini API key
    ```bash
    GEMINI_API_KEY={YOUR_GEMINI_API_KEY}
    ```
